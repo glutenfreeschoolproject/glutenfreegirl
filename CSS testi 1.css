@@ -1,0 +1,168 @@
+
+/*
+div {
+    border: 1px;
+    border-color:black;
+    border-style: solid;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+
+html,body {
+    margin:0;
+    padding:0;
+    font-family: 'Playfair Display', serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+      
+li {
+    float: center;
+}
+      
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+      
+li a:hover:not(.active) {
+    background-color: #111;
+}
+      
+.active {
+    background-color: #808A78;
+}
+
+header {
+    background-image: url("pexels-seamlesstextures-11255114-2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+    
+header h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 120px;
+    
+}
+
+section {
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.button {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.quote {
+    font-size: 30px;
+    text-align: center;
+    color: #808A78;
+    padding: 30px;
+}
+
+.quote2 {
+    font-size: 30px;
+    text-align: center;
+    color: #808A78;
+    padding: 30px;
+}
+
+section img {
+    padding: 20px 0px 20px 0px;
+}
+
+footer {
+    background-color: #808A78;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.quote {
+    width: 85%;
+    margin: auto;
+    font-size: 30px;
+}
+
+.quote2 {
+    width: 85%;
+    margin: auto;
+    font-size: 30px;
+}
+
+.button {
+    color:black;
+    padding: 10px;
+    width: 88%;
+}
+
+@media only screen and (min-width: 650px) {
+
+    li {
+        float: left;
+    }
+
+    section {
+        width: 75%;
+        
+    }
+
+    header h1 {
+        padding: 200px; 10px; 200px; 10px;
+
+    }
+        
+    .quote {
+        font-size: 40px;
+    }
+
+   .quote2 {
+    font-size: 30px;
+   }
+  }
+
+
+@media only screen and (min-width: 1025px) {
+    section {
+        width: 65%;
+        
+    }
+
+    header h1 {
+        font-size: 70px;
+
+    }
+        
+  }
+
+
+
+ 
+    
+
+
